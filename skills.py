@@ -116,6 +116,7 @@ def find_unique_common_items(list1, list2):
         [1, 2]
 
     """
+
     # Create a dictionary that'll hold all the items in list1 as keys,
     # and a list of all items in list2 as values.
     # Create a second dictionary to hold keys from the first dictionary
@@ -132,25 +133,6 @@ def find_unique_common_items(list1, list2):
                 unique_dict[item] = None
 
     return unique_dict.keys()
-
-
-    # list1.extend(list2)
-
-    # for item in list1:
-    #     if item_dict[item]:
-    #         item_dict[item] += 1
-    #     else:
-    #         item_dict[item] = 1
-
-    # for item in item_dict:
-    #     if item_dict[item] >= 2:
-    #         unique_list.append(item)
-
-
-
-    return unique_list
-
-    # FIX
 
 
 def get_sum_zero_pairs(input_list):
@@ -392,6 +374,7 @@ def get_pirate_talk(phrase):
     new_text = new_text.strip()
 
     return new_text
+    
 
 # End of skills. See below for advanced problems.
 # To work on them, set ADVANCED=True at the top of this file.
